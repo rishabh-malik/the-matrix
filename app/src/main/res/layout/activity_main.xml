@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/white"
+    tools:context="com.example.rishabh.thematrix.MainActivity"
+    android:weightSum="1">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <EditText
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:textColorHint="@color/black"
+        android:ems="10"
+        android:id="@+id/editText1"
+        android:hint="a1"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:id="@+id/editText2"
+        android:hint="b1"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:ems="10"
+        android:textColorHint="@color/black"
+        android:id="@+id/editText3"
+        android:hint="c1"
+        android:textColor="@color/black"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"
+            android:ems="10"
+
+            android:id="@+id/editText4"
+            android:hint="a2"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"
+            android:ems="10"
+            android:hint="b2"
+            android:textColor="@color/black"
+            android:id="@+id/editText5" />
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="c2"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/editText6" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="a3"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:id="@+id/editText7" />
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="b3"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:id="@+id/editText8" />
+
+        <EditText
+            android:layout_width="111dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/black"
+            android:ems="10"
+            android:hint="c3"
+            android:textColor="@color/black"
+            android:id="@+id/editText9" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:onClick="calc"
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find determinant:"/>
+
+    <TextView
+
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:onClick="start"
+        android:layout_margin="100dp"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:text="Press to Find inverse:" />
+
+
+</LinearLayout>
